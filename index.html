@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <main>
+      
+      <div class="passo ativo" id="passo-0">
+<img src="logo.png">
+      <p>
+        Era uma vez na Nova Zelândia, um país governado por uma monarquia que controlava com mãos firmes todas as riquezas e terras. Em uma pequena fazenda isolada, cercada por montanhas e rios distantes do reino, vivia um jovem chamado Liam. Ele era filho de um agricultor simples, cujo amor por matemática e pela terra o sustentava, mesmo após perder quase tudo para a burguesia e o rei. Eles haviam herdado uma grande propriedade, mas, com o passar dos anos, o governo confiscou a maior parte, deixando-os com um pedaço de terra solitário e sem conexão com o resto do mundo.
+
+O pai de Liam, apesar das dificuldades, jamais deixou seu espírito ser quebrado. Ensinou a Liam tudo sobre números, estrelas, e o valor de uma vida dedicada à honestidade. Mesmo com poucos recursos, mantinham-se ocupados, trabalhando arduamente e apreciando as coisas simples.
+
+Mas a vida de Liam mudou quando, ao explorar um celeiro antigo, ele encontrou uma cruz envelhecida, e atrás dela, um mapa escondido. O mapa parecia indicar uma ilha remota da Nova Zelândia e sugeria que ali havia um tesouro de valor inestimável, com segredos que poderiam mudar o destino de quem o encontrasse.</p>
+        
+        <button class="proximo" data-proximo="1">Liam decide aceitar a  responsabilidade pela cruz e seguir o mapa.🌍🗺🧭</button>
+        
+        <button class="proximo" data-proximo="2">Liam decide ficar com Liz, ignorando o tesouro.💐🌸🌺🌼🌷</button>
+      </div>  
+      
+       <div class="passo" id="passo-1">
+<img src="logo.png">
+      <p>
+        Liam, determinado a mudar seu destino e o de seu pai, decide seguir o mapa. Ele sabe que encontrar o tesouro poderia garantir uma vida sem preocupações, mas o caminho é perigoso e cheio de mistérios. Ele precisa deixar Liz para trás, mas promete voltar para ela, mais forte e capaz de protegê-la da ganância do rei.
+      </p>
+        
+        <button class="proximo" data-proximo="3">Ele pede ajuda a liz para decifrar o mapa,e juntos partem para a aventura.🌍🗺🧭</button>
+        
+        <button class="proximo" data-proximo="4">Liam parte sozinho e enfrenta perigos no caminho, mas Liz começa a questionar o amor que eles têm.</button>
+      </div>  
+      
+       <div class="passo" id="passo-2">
+<img src="logo.png">
+      <p>
+        Liam, apaixonado por Liz, decide que o amor vale mais do que qualquer riqueza. Ele fica com ela, dedicando-se a encontrar uma maneira de viverem juntos, longe das manipulações da corte. No entanto, essa escolha vem com consequências; ele terá que enfrentar o rei e a sociedade que não aceitará sua união.
+      </p>
+      
+      <button class="proximo" data-proximo="5">
+         O rei descobre o romance e decide separar os dois.
+      </button>
+      
+      <button class="proximo" data-proximo="6">
+        Liz decide fugir com Liam, abandonando seu título e fortuna.
+      </button>
+      </div>
+      
+        <div class="passo" id="passo-5">
+<img src="logo.png">
+      <p>
+        O rei, furioso ao descobrir o romance entre sua filha e o camponês, decide acabar com a relação. Ele manda soldados atrás de Liam, que se vê forçado a lutar pela sua vida e pelo amor de Liz. Enquanto fogem, Liam percebe que precisa mais do que nunca encontrar o tesouro para ter alguma chance contra o rei.
+      </p>
+      
+      <button class="proximo" data-proximo="7">
+         Liam enfrenta o rei, ganhando a chance de provar seu valor.
+      </button>
+      
+      <button class="proximo" data-proximo="8">
+         Liz é forçada a casar com outro homem.
+      </button>
+      </div>
+      
+      <div class="passo" id="passo-6">
+<img src="perdeu.png">
+      <p>
+        Liz, desesperada para escapar do controle do pai, decide fugir com Liam. Eles partem juntos em uma jornada incerta, deixando para trás o palácio e suas riquezas. Porém, a vida no campo, longe de tudo que Liz conheceu, se torna difícil. Logo, ela começa a se arrepender da decisão, questionando se realmente fez a escolha certa.
+      </p>
+      
+      <button class="proximo" data-proximo="0">
+        Reiniciar? 🕹
+      </button>
+
+      </div>
+    
+        <div class="passo" id="passo-7">
+<img src="ganhou.png">
+      <p>
+        Liam, em uma batalha final contra o rei, mostra seu valor ao defender Liz e sua liberdade. Com a ajuda do tesouro encontrado, ele consegue convencer o reino de que sua união com Liz é legítima e o amor deles prevalece.
+      </p>
+      
+      <button class="proximo" data-proximo="0">
+           Reiniciar? 🕹
+      </button>
+    
+      </div>
+      
+        <div class="passo" id="passo-8">
+<img src="logo.png">
+      <p>
+        Liz, forçada a casar-se com outro homem, não consegue tirar Liam de sua cabeça. Ela tenta se adaptar à nova vida, mas seu coração está sempre com ele. Eventualmente, ela decide arriscar tudo, fugindo de volta para os braços de Liam, reiniciando a busca pelo tesouro.
+      </p>
+      
+      <button class="proximo" data-proximo="3">
+         Ele pede ajuda a liz para decifrar o mapa,e juntos partem para a aventura.
+      </button>
+      
+      <button class="proximo" data-proximo="4">
+        Liam parte sozinho e enfrenta perigos no caminho, mas Liz começa a questionar o amor que eles têm.
+      </button>
+      </div>
+      
+        <div class="passo" id="passo-3">
+<img src="logo.png">
+      <p>
+        Liz, inquieta com a decisão de Liam, descobre seu plano e o segue em segredo. Juntos, eles enfrentam os perigos da jornada, desde os perigos naturais até os desafios impostos por aqueles que querem o tesouro para si. No meio do caos, o amor deles é testado, e Liz começa a se perguntar se o tesouro realmente vale o sacrifício.
+
+      </p>
+      
+      <button class="proximo" data-proximo="9">
+        Eles descobrem o tesouro e Liz pede para que o destruam.
+      </button>
+      
+      <button class="proximo" data-proximo="10">
+        Ao encontrar o tesouro, Liz começa a ser consumida pela ambição.
+      </button>
+      </div>
+      
+    <div class="passo" id="passo-4">
+<img src="ganhou.png">
+      <p>
+        liam decide partir sozinho, com a promessa de voltar por Liz. Ele navega pelos mares revoltos da Nova Zelândia, seguindo o mapa até a ilha desconhecida. Após muitas provações, ele encontra o tesouro, mas percebe que o verdadeiro valor está na simplicidade que ele deixou para trás. Ele volta para Liz, e juntos constroem uma nova vida.
+      </p>
+      
+      <button class="proximo" data-proximo="0">
+           Reiniciar? 🕹
+      </button>
+      
+      </div>
+      
+        <div class="passo" id="passo-10">
+<img src="perdeu.png">
+      <p>
+        Liz, tomada pela ambição ao encontrar o tesouro, se afasta de Liam, buscando poder e controle. O amor entre eles se dissolve e, eventualmente, Liz se torna o que mais temia: uma figura cruel e dominadora, como seu pai.
+      </p>
+      
+      <button class="proximo" data-proximo="0">
+        
+      </button>
+      
+            <div class="passo" id="passo-9">
+<img src="ganhou.png">
+      <p>
+        Liam e Liz ganham, libertam o reino,e no final, se casam, unindo as forças contras as injustiças, onde vivem em paz.
+      </p>
+      
+      <button class="proximo" data-proximo="0">
+           Reiniciar? 🕹
+      </button>
+      
+
+      </div>     
+
+      </div>
+    
+    </main>
+    <footer>
+      <p> Criado por <a
+href="https://github.com/Anakarolina2310">
+        Ana karolina dos santos correia</a></p>
+    </footer>
+    <script src="sketch.js"></script>
+  </body>
+</html>
